@@ -46,13 +46,13 @@ body {
 	}
 
 @-webkit-keyframes pulse {
-	0% { opacity: 0.1; transform: rotateX(-5deg); }
-	100% { opacity: 0.3; transform: rotateX(5deg); }
+	0% { opacity: 0.1; -webkit-transform: rotateX(-5deg); }
+	100% { opacity: 0.3; -webkit-transform: rotateX(5deg); }
 }
 
 @-webkit-keyframes pulseY {
-	0% { opacity: 0.01; transform: rotateY(-5deg) scale(1); }
-	100% { opacity: 0.3; transform: rotateY(5deg) scale(1.2); }
+	0% { opacity: 0.01; -webkit-transform: rotateY(-5deg) scale(1); }
+	100% { opacity: 0.3; -webkit-transform: rotateY(5deg) scale(1.2); }
 }
 
 @keyframes pulse {
