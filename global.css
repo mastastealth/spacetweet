@@ -3,26 +3,11 @@ html { height: 100%; }
 body { 
 	background: #111; 
 	color: white;
-	font-family: Calibri, Tahoma, Arial, sans-serif;
 	height: 100%;
 	overflow: hidden;
 	-webkit-perspective: 800px;
 	perspective: 800px;
-	text-align: center;
 	width: 100%;
-}
-
-a { 
-	color: #EEF; 
-	font-size: 18px;
-	font-weight: bold;
-	text-decoration: none; 
-}
-
-h1 { 
-	font-family: 'Economica', sans-serif;
-	font-size: 48px;
-	margin-bottom: 40px;
 }
 
 /* 
@@ -31,15 +16,14 @@ h1 {
 =======================
 */
 
-
-
 .tweeter {
-	display: inline-block;
+	float: left;
 	margin-right: 20px;
 	position: relative;
-	text-align: center;
 	z-index: 1;
 }
+<<<<<<< HEAD
+=======
 	.tweeter i {
 		background: rgba(255,255,255,0.4);
 		border-radius: 100px;
@@ -60,6 +44,7 @@ h1 {
 	}
 	
 	.tweeter a, .tweeter span { display: block; }
+>>>>>>> 4486e72cbd4a07046cd124f1380ff2ba93b0267c
 
 
 /* 
